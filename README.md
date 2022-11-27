@@ -44,7 +44,7 @@ use `npm run {comand-in-scripts}` eg : `npm run d-feed-nft`
 
 ### Project Background
 
-Evoulution is the personification of NFT, giving NFTs some human like attritubes in a gamified way.
+Evolution is the personification of NFT, giving NFTs some human like attritubes in a gamified way.
 
 The current setup gamified NFT contains NFT with properties, this particular types treat NFT like animals that are been cared for.
 
