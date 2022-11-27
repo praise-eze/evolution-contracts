@@ -1,0 +1,183 @@
+{
+	"ABI version": 2,
+	"version": "2.2",
+	"header": ["pubkey", "time", "expire"],
+	"functions": [
+		{
+			"name": "constructor",
+			"inputs": [
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "_isDead",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"isdead","type":"bool"}
+			]
+		},
+		{
+			"name": "_claimableReward",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"value0","type":"uint256"}
+			]
+		},
+		{
+			"name": "returnTokenCountWithoutDecimal",
+			"inputs": [
+				{"name":"_tokenCount","type":"uint256"}
+			],
+			"outputs": [
+				{"name":"value0","type":"uint256"}
+			]
+		},
+		{
+			"name": "decimal",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"value0","type":"uint256"}
+			]
+		},
+		{
+			"name": "_isCanivore",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"iscanivore","type":"bool"}
+			]
+		},
+		{
+			"name": "_lastTimeFeed",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"value0","type":"uint256"}
+			]
+		},
+		{
+			"name": "rewardRate",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"value0","type":"uint256"}
+			]
+		},
+		{
+			"name": "_produce",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"_produce","type":"uint256"}
+			]
+		},
+		{
+			"name": "_lastTimeFeed_",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"_lastTimeFeed_","type":"uint256"}
+			]
+		},
+		{
+			"name": "_totalFoodTkSent",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"_totalFoodTkSent","type":"uint256"}
+			]
+		},
+		{
+			"name": "_totalCanivoredNFT",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"_totalCanivoredNFT","type":"uint256"}
+			]
+		},
+		{
+			"name": "_totalCanivoredNFT_tokenId",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"_totalCanivoredNFT_tokenId","type":"uint256[]"}
+			]
+		},
+		{
+			"name": "_timeOfCanivoreChange",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"_timeOfCanivoreChange","type":"uint256"}
+			]
+		},
+		{
+			"name": "_isDead_",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"_isDead_","type":"bool"}
+			]
+		},
+		{
+			"name": "_isCanivorous_",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"_isCanivorous_","type":"bool"}
+			]
+		},
+		{
+			"name": "TKrewardsClaimed",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"TKrewardsClaimed","type":"uint256"}
+			]
+		},
+		{
+			"name": "CNrewardsClaimed",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"CNrewardsClaimed","type":"uint256"}
+			]
+		},
+		{
+			"name": "individualTokenFeedBalanceOf",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"individualTokenFeedBalanceOf","type":"map(address,uint256)"}
+			]
+		}
+	],
+	"data": [
+	],
+	"events": [
+	],
+	"fields": [
+		{"name":"_pubkey","type":"uint256"},
+		{"name":"_timestamp","type":"uint64"},
+		{"name":"_constructorFlag","type":"bool"},
+		{"name":"_produce","type":"uint256"},
+		{"name":"_lastTimeFeed_","type":"uint256"},
+		{"name":"_rewardRate","type":"int128"},
+		{"name":"_TKrewardPast","type":"uint256"},
+		{"name":"_CNrewardPast","type":"uint256"},
+		{"name":"_CNrewardIndex","type":"uint256"},
+		{"name":"_totalFoodTkSent","type":"uint256"},
+		{"name":"_totalCanivoredNFT","type":"uint256"},
+		{"name":"_totalCanivoredNFT_tokenId","type":"uint256[]"},
+		{"name":"_timeOfCanivoreChange","type":"uint256"},
+		{"name":"_isDead_","type":"bool"},
+		{"name":"_isCanivorous_","type":"bool"},
+		{"name":"TKrewardsClaimed","type":"uint256"},
+		{"name":"CNrewardsClaimed","type":"uint256"},
+		{"name":"individualTokenFeedBalanceOf","type":"map(address,uint256)"}
+	]
+}
